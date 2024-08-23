@@ -14,7 +14,7 @@ class Slider extends Component{
     render(){
         const images = this.state.images.map((item)=>{
             return(
-                <img key = {item._id} src={"data:image/jpg;base64,"+item.image} height="300px"/>
+                <img key = {item._id} src="https://intphcm.com/data/upload/banner-thoi-trang-thu-hut.jpg" height="300px"/>
             );
         });
         const settings ={
